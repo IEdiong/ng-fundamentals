@@ -11,4 +11,9 @@ export class AppComponent {
     interpolation: 'string interpolation in angular',
     property: 'property binding in angular',
   };
+
+  likeMsg?: string;
+  like() {
+    this.likeMsg = 'You just liked my app 😍. Thanks!';
+  }
 }
