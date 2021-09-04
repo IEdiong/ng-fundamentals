@@ -16,4 +16,11 @@ export class AppComponent {
   like() {
     this.likeMsg = 'You just liked my app 😍. Thanks!';
   }
+
+  count: number = 0;
+  subscribe() {
+    this.count++;
+  }
+
+  // animals = ['🐼', '🐯', '🐮', '🦍'];
 }

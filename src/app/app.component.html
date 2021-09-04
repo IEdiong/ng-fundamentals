@@ -14,3 +14,12 @@
 <button (click)="like()">like ❤️</button>
 <p>{{ likeMsg }}</p>
 <hr />
+<h2>*ngIf Directives</h2>
+<button (click)="subscribe()">subscribe</button>
+<p *ngIf="count >= 1">
+  You have clicked on the subcribe button {{ count }} times.
+</p>
+<hr />
+<!-- <h2>*ngFor Directives</h2>
+<p *ngFor="let animal of animals">Animal => {{ animal }}.</p>
+<hr /> -->
