@@ -9,5 +9,6 @@ export class AppComponent {
   title: string = 'ng-fundamentals';
   ngTopics = {
     interpolation: 'string interpolation in angular',
+    property: 'property binding in angular',
   };
 }
