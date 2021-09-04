@@ -22,5 +22,5 @@ export class AppComponent {
     this.count++;
   }
 
-  // animals = ['🐼', '🐯', '🐮', '🦍'];
+  animals = ['🐼', '🐯', '🐮', '🦍'];
 }
