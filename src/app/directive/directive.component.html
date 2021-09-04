@@ -1,0 +1,9 @@
+<h2>*ngIf Directives</h2>
+<button (click)="counter.subscribe()">subscribe</button>
+<p *ngIf="counter.count >= 1">
+  You have clicked on the subcribe button {{ counter.count }} times.
+</p>
+<hr />
+<h2>*ngFor Directives</h2>
+<p *ngFor="let emoji of emojis.animals">Animal => {{ emoji }}.</p>
+<hr />
