@@ -10,8 +10,4 @@ import { Component } from '@angular/core';
     />
   `,
 })
-export class AppComponent {
-  title: string = 'ng-fundamentals';
-
-  constructor() {}
-}
+export class AppComponent {}
