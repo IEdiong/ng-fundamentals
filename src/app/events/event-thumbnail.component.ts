@@ -15,6 +15,9 @@ import { Component, EventEmitter, Input, Output } from '@angular/core';
   </div> `,
   styles: [
     `
+      .thumbnail {
+        min-height: 210px;
+      }
       .pad-left {
         padding-left: 10px;
       }
