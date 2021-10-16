@@ -9,12 +9,19 @@ import { Router } from '@angular/router';
       <h3>[Create event form will go here]</h3>
       <br />
       <br />
-      <button type="submit" class="btn btn-primary mx-5">Save</button>
+      <button type="submit" class="btn btn-primary me-5">Save</button>
       <button type="button" class="btn btn-default" (click)="cancel()">
         Cancel
       </button>
     </div>
   `,
+  styles: [
+    `
+      .me-5 {
+        margin-right: 0.5em;
+      }
+    `,
+  ],
 })
 export class CreateEventComponent {
   constructor(private router: Router) {}
