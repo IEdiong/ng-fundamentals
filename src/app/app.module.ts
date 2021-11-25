@@ -29,7 +29,7 @@ import { appRoutes } from './routes';
     EventService,
     ToastrService,
     EventRouteActivator,
-    { provide: 'canDeactivateCreateEvent', useValue: 'checkDirtyState' },
+    { provide: 'canDeactivateCreateEvent', useValue: checkDirtyState },
   ],
   bootstrap: [AppComponent],
 })
